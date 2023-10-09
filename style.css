@@ -1,0 +1,27 @@
+.btn-group button{
+    font-family: Aial, Helvetica, sans-serif;
+    background-color: rgb(13, 136, 161);
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
+    float: left;
+}
+header{
+    background: gray;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+article{
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(151, 188, 255);
+    border: 2px solid black;
+}
+section {
+    display: flex;
+  }
