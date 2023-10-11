@@ -58,6 +58,7 @@ function check(){
     paragraph.textContent += current + "\r\n";
     multiplier = 100;
     if(current==code){
+        paragraph4.textContent = "Hint: "
         paragraph2.textContent = "Code is cracked! Click clear to start a new game";
         d= true;
     }else{
@@ -72,6 +73,7 @@ function check(){
         paragraph2.textContent ="Guess: ";
     }
     if(timer == 0){
+        paragraph4.textContent = "Hint: "
         paragraph2.textContent ="Timers up! You were caught by police! Click Clear to start a new game"; 
         d= true;
     }
