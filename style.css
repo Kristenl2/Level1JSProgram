@@ -1,25 +1,27 @@
 .btn-group button{
     font-family: Aial, Helvetica, sans-serif;
-    background-color: rgb(13, 136, 161);
+    background-color: rgb(255, 226, 226);
     border: 2px solid black;
     color: black;
-    padding: 5px;
+    padding: 10px;
+    margin-right: 8px;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 20%;
     cursor: pointer;
     float: left;
 }
 header{
-    background: gray;
+    background: rgb(255, 226, 226);
     height: 120px;
     text-align: center;
     margin: 10px;
     padding: 30px;
 }
 article{
+    font-size: medium;
     padding: 100px;
     margin: 10px;
-    background-color: rgb(151, 188, 255);
+    background-color: rgb(179, 194, 223);
     border: 2px solid black;
 }
 section {
