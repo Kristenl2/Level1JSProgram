@@ -1,5 +1,5 @@
 .btn-group button{
-    font-family: Aial, Helvetica, sans-serif;
+    font-family: Garamond, sans-serif;
     background-color: rgb(255, 226, 226);
     border: 2px solid black;
     color: black;
@@ -11,18 +11,22 @@
     float: left;
 }
 header{
+    font-family: Garamond, sans-serif;
     background: rgb(255, 226, 226);
     height: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 12px;
     padding: 30px;
+    border-radius: 20%;
 }
 article{
+    font-family: Garamond, sans-serif;
     font-size: medium;
     padding: 100px;
     margin: 10px;
     background-color: rgb(179, 194, 223);
-    border: 2px solid black;
+    border: 2px solid rgb(133, 133, 133);
+    border-radius: 20%;
 }
 section {
     display: flex;
